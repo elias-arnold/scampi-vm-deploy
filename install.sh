@@ -38,3 +38,6 @@ touch /var/log/scampi/scampiService.log
 chmod 222 /var/log/scampi/scampiService.log
 touch /var/log/scampi/scampiRest.log
 chmod 222 /var/log/scampi/scampiRest.log
+
+echo "Finish!"
+exit 0
