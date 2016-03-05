@@ -78,7 +78,7 @@ Core.interfaceDiscoverers = ipv4tracker, loopback
 ## discoverers.
 ##
 # Interfaces used for local IPv4 addresses
-#ipv4interface.discoverers = multicastDiscoverer, liberouterDiscoverer
+ipv4interface.discoverers = multicastDiscoverer
 ipv4interface.announcers = passiveAnnouncer
 ipv4interface.bundleServices = tcpclBundleService
 ipv4interface.topologyController = fullMesh
